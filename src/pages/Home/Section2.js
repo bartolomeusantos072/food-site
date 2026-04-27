@@ -31,13 +31,13 @@ function Section2() {
         <Container>
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
-              <h2>O hambúrguer fica mais gostoso quando você come com a família</h2>
+              <h2>O melhor hambúrguer é aquele compartilhado.</h2>
               <p>
-                Acreditamos que o segredo de um bom lanche não está apenas nos ingredientes selecionados, 
-                mas nos momentos compartilhados à mesa. Cada mordida ganha um sabor especial quando cercada 
-                por boas risadas e a companhia de quem amamos. Por isso, preparamos nossas receitas com o 
-                carinho de quem cozinha para a própria família, transformando uma simples refeição em uma 
-                memória inesquecível.
+                A gente acredita que o verdadeiro sabor vai além dos ingredientes — 
+                ele nasce nos momentos vividos à mesa. Entre risadas, conversas e
+                boas companhias, cada lanche se transforma em algo especial. 
+                Por isso, preparamos tudo com carinho, como se fosse para a nossa 
+                própria família.
               </p>
               <Link to="/" className="btn order_now btn_red">
                 Menu completo
