@@ -1,4 +1,5 @@
 import React from "react";
+// Importamos o createBrowserRouter e RouterProvider para suporte total às Future Flags
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // COMPONENTES FIXOS
@@ -15,7 +16,16 @@ import Contact from "./pages/Home/Section7";
 
 function App() {
   return (
-    <Router>
+    /* AQUI ESTÁ A CHAVE: 
+       Adicionamos o basename para que o React entenda que o site começa em /food-site 
+    */
+    <Router 
+      basename="/food-site"
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+    >
       <Header />
 
       <Routes>
